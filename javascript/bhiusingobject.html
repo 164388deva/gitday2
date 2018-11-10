@@ -1,0 +1,31 @@
+<html>
+<head>
+<title> BMI using </title>
+<script >
+function bmi(w,h)
+{
+b=w/(h*h);
+}
+</script>
+</head>
+<body>
+<script>
+var mark={name:"mark" , weight:"60"  , height:"1.5"}
+var john={name:"john" , weight:"50"  , height:"1.6"}
+if(bmi(mark.weight,mark.height)==bmi(john.weight,john.height))
+{
+document.write(mark.name+" and "+jonn.name+" has equal bmi's with "+bmi(mark.weight,mark.height));
+}
+
+else if(bmi(mark.weight,mark.height)>bmi(john.weight,john.height))
+{
+document.write(mark.name+" has more bmi than "+jonn.name+" with "+bmi(mark.weight,mark.height));
+}
+else if(bmi(mark.weight,mark.height)<bmi(john.weight,john.height))
+{
+document.write(john.name+" has more bmi than "+mark.name+" with "+bmi(mark.weight,mark.height));
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<html>
+<head>
+<script>
+
+function bilcal(n)
+{
+if(n<50)
+{
+
+amt[i++]=0.2*n + n;
+
+}
+else if(n >50 && n <200)
+{
+amt[i++]=0.15*n + n;
+
+}
+else if(n>200)
+{
+
+amt[i++]=0.10*n + n;
+
+}
+}
+</script>
+</head>
+<body>
+<script>
+
+var bil=new Array(4);
+var amt=new Array(4);
+var t=new Array(4);
+var i=0;
+bil[0]=124;
+bil[1]=48;
+bil[2]=268;
+var k=0;
+for(k=0;k<3;k++)
+{
+if(bil[i]<50)
+{
+
+t[i++]=0.2*n;
+
+}
+else if(bil[i] >50 && bil[i] <200)
+{
+t[i++]=0.15*n;
+
+}
+else if(bil[i]>200)
+{
+
+t[i++]=0.10*n;
+
+}
+}
+for(j=0;j< 3; j++)
+{
+bilcal(bil[j]);
+}
+document.write( "The bills he got from hotels <br>");
+
+for(j=0;j< 3; j++)
+{
+document.write( "$",bil[j],"<br>");
+
+}
+document.write( "The tips he paid :<br>");
+
+for(j=0;j< 3; j++)
+{
+document.write( "$",t[j],"<br>");
+}
+
+document.write( "The amout he paid including tip:<br>");
+for(j=0;j< 3; j++)
+{
+document.write( "$",amt[j],"<br>");
+
+}
+ 
+</script>
+</body>
+</html>
