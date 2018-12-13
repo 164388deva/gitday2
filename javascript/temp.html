@@ -1,0 +1,31 @@
+ 
+<html>
+<head>
+<title>Fahrenheit to celcius</title>
+<script>
+function temp()
+{  
+a=document.myform.na.value;
+if(a=="" || isNaN(a))
+{
+alert("enter some value");
+return;
+}
+else
+{
+a=a-32;
+}
+document.write( "temperature in celcius is"+a+" C");
+}
+</script>
+</head>
+<body>
+<form name="myform">
+<input type="text"  name="na" >
+<button onclick="temp()" >show results</button>
+</form>
+
+
+</body>
+
+</html>

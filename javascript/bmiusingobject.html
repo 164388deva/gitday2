@@ -1,0 +1,43 @@
+<html>
+<head>
+<title> BMI using objects</title>
+<script >
+function bmi(w,h)
+{
+ var b=w/(h*h);
+return b;
+}
+</script>
+</head>
+<body>
+<script>
+
+var mark={name:"mark" , weight:60  , height:1.5}
+var john={name:"john" , weight:50  , height:1.5}
+var g= mark.weight;
+var h= mark.height;
+var i= john.weight;
+var  j= john.height;
+var c;
+c = Number(bmi(g , h));
+var d;
+ d = Number(bmi(i ,j));
+  var r=Number(d);
+  var t=Number(c);
+ 
+ if(t > r   )
+{
+document.write(john.name+" has more bmi than "+mark.name+" with "+d);
+}
+else if ( t < r )
+{
+document.write(john.name+" has more bmi than "+mark.name+" with "+d);
+}
+else 
+{
+document.write(mark.name+" and "+jonn.name+" has equal bmi's with "+c);
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head><title>basketball scores average</title>
+</head>
+<body>
+<script>
+var j1= 89;
+var j2=120;
+var j3=103;
+var m1=116;
+var m2=94;
+var m3=123;
+var ma1=97;
+var ma2=134;
+var ma3=105;
+
+var avg1=(j1+j2+j3)/3;
+var avg2=(m1+m2+m3)/3;
+var avg3=(ma1+ma2+ma3)/3;
+
+if(avg1!=avg2 || avg2 != avg3 || avg3!=avg1)
+{
+if(avg1 > avg2 && avg1 > avg3)
+{
+document.write("john's avg is greater than mary and mike");
+}
+else if(avg2 > avg1 && avg2 > avg3)
+{
+document.write("mike's avg is greater than mary and john");
+}
+if(avg3 > avg1 && avg3 > avg2)
+{
+document.write("mary's avg is greater than john and mike");
+}
+
+}
+
+else if( avg1 == avg2)
+{
+document.write("john's ang mike's avg is euqual");
+}
+else if( avg2 == avg3)
+{
+document.write("john's ang mike's avg is euqual");
+}else if( avg3 == avg1)
+{
+document.write("john's ang mike's avg is euqual");
+}
+</script>
+</body>
+</html>

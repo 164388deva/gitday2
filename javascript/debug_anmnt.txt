@@ -1,0 +1,17 @@
+1)// NO error
+  o/p: Hello World!
+
+2) //NO error
+ o/p: x = 4
+ 
+3) //NO error
+o\p: The function retutned 25.
+All done.
+// we can omit end tags when the html tag is not followed immediately followed by comment line.
+
+4)  //NO error
+o\p: The function retutned 25.
+All done.
+// we can omit end tags when the html tag is not followed immediately followed by comment line.
+
+6) //error :there is no opening head  tag.
